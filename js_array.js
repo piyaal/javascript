@@ -1,0 +1,14 @@
+var age=[1,2,3,4,5,6,7];
+console.log(age);
+var names=['khan','tom',"jerry"];
+console.log(names,names.length);
+var f=names.indexOf('tom');
+var f=age.indexOf(5);
+console.log(f);
+console.log(age[2]);
+age[6]=999;
+console.log(age);
+var mix=[1,2,3,66,77];
+console.log(mix);
+var ff=mix.indexOf(3);
+console.log(ff);
