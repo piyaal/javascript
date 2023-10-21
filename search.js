@@ -3,3 +3,8 @@ const search= song.includes('life');
 console.log(search);
 const sear= song.includes('lie');
 console.log(sear);
+const lyrics='in the end it doesnt even matter';
+const find='matter';
+const lowercase=lyrics.toLowerCase();
+const exist=lowercase.includes(find);
+console.log(exist);
